@@ -6,7 +6,7 @@ A data-cleaning and exploratory-analysis project with a Power BI report for expl
 
 ## Dashboard Preview
 
-The interactive dashboard is available in the Power BI report file below. An image preview can be added here when an exported screenshot is saved in the project folder.
+![Power BI Road Accident Analysis Dashboard](dashboard.png)
 
 The Power BI report file is [`Road Accident Analysis Dashboard.pbix`](Road%20Accident%20Analysis%20Dashboard.pbix).
 
