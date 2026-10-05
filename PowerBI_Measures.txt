@@ -1,0 +1,20 @@
+Power BI measures / calculated metrics
+
+Total Accidents = COUNTROWS('road_accident_cleaned')
+
+Total Casualties = SUM('road_accident_cleaned'[Casualties])
+
+Serious Accidents =
+CALCULATE(
+    [Total Accidents],
+    'road_accident_cleaned'[Severity] = "Serious"
+)
+
+Fatal Accidents =
+CALCULATE(
+    [Total Accidents],
+    'road_accident_cleaned'[Severity] = "Fatal"
+)
+
+Average Vehicles =
+AVERAGE('road_accident_cleaned'[Vehicles_Involved])
